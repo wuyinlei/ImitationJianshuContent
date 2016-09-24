@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_left">32dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_half">8dp</dimen>
+    <dimen name="activity_horizontal_margin_ban">4dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="left_content">280dp</dimen>
+
+    <integer name="duration_anim">300</integer>
+
+    <dimen name="ic_back_width">25dp</dimen>
+    <dimen name="ic_back_height">25dp</dimen>
+
+    <dimen name="ic_next_width">10dp</dimen>
+    <dimen name="ic_next_height">15dp</dimen>
+</resources>
