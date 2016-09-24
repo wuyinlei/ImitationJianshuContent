@@ -63,7 +63,7 @@ public class OneAdapter extends RecyclerView.Adapter<OneAdapter.ViewHolder> {
         if (mItemAnswerBeen != null && mItemAnswerBeen.size() > 0) {
             holder.second_recycler_view.setLayoutManager(new LinearLayoutManagerPlus(mContext));
             holder.second_recycler_view.setItemAnimator(new DefaultItemAnimator());
-            holder.second_recycler_view.addItemDecoration(new DividerItemDecoration(mContext,DividerItemDecoration.VERTICAL_LIST));
+            holder.second_recycler_view.addItemDecoration(new DividerItemDecorationSecond(mContext,DividerItemDecoration.VERTICAL_LIST));
             mSecondAdapter = new SecondAdapter(mItemAnswerBeen,bean.getUsername());
             holder.second_recycler_view.setAdapter(mSecondAdapter);
         }

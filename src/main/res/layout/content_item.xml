@@ -77,6 +77,10 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:text="@string/note_string"/>
 
+    <View
+        android:background="@color/switch_thumb_normal_material_dark"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/content_second_list"
